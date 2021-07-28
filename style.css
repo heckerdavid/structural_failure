@@ -1,0 +1,35 @@
+:root {
+    --a: #9368B7;
+    --b: #9297C4;
+    --c: #84C7D0;
+}
+
+h1 {
+    text-decoration: #9368B7;
+    text-align: center;
+    background-color: #84C7D0;
+}
+
+section {
+    align-content: space-around;
+    background-color: #9368B7;
+    margin: 20px;
+    padding: 40px;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    align-content: space-between;
+}
+
+img {
+    width: 30%;
+}
+
+nav {
+    text-align: center;
+}
