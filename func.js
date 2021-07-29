@@ -19,4 +19,15 @@ function annoyUser() {
         alert('invalid input but ok.')
     }
 }
+
+function annoyUserwithNumbers() {
+    input = prompt("enter 'yes'")
+    if (input === 'yes') {
+        alert('thank you for following directions! goodbye')
+    } else {
+        alert("INVALID INPUT. Your failure to follow instructions puts us right back where we started")
+        annoyUserwithNumbers()
+    }
+}
 annoyUser();
+annoyUserwithNumbers();
