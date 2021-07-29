@@ -34,7 +34,7 @@ function addImage() {
     let x = prompt('How many stars would you give cryptocurrency?');
     let num = parseInt(x)
     for (let i = 0; i < num; i++) {
-        document.write('<img src="https://freesvg.org/img/3D-Spiral-Star.png"></img>');
+        document.write('<img src="https://freesvg.org/img/3D-Spiral-Star.png"></img>' + (i+1));
     }
 
 }
