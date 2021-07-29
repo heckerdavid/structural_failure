@@ -33,3 +33,25 @@ img {
 nav {
     text-align: center;
 }
+
+.button {
+    transition-duration: 0.4s;
+    background-color: #9297C4;
+    color: #9368B7;
+    border: 2px solid #84C7D0;
+    padding: 16px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #9368B7;
+    color: whitesmoke;
+
+
+}
+
+#incrementText {
+    color: black;
+}
