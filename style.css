@@ -40,6 +40,9 @@ img {
 nav {
     text-align: center;
 }
+footer {
+    align-items: center;
+}
 
 .button {
     transition-duration: 0.4s;

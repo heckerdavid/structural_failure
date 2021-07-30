@@ -38,5 +38,5 @@ function addImage() {
     }
 
 }
-annoyUser();
+
 annoyUserwithNumbers();
