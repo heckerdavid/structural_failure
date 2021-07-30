@@ -5,16 +5,22 @@
 }
 
 h1 {
-    color: #84C7D0;
+    color: #84c7d0a4;
     text-align: center;
-    background-color: #9368B7;
+    background-color: #9368b7c5;
+    padding: 0%;
+    margin: 19%;
+    border: 10px;
+    border-radius: 25%;
+    border-color: #84C7D0;
 }
 
 section {
     align-content: space-around;
-    background-color: #9368B7;
+    background-color: #9368b788;
     margin: 20px;
     padding: 40px;
+    
 }
 
 p {
@@ -24,6 +30,7 @@ p {
 
 body {
     align-content: space-between;
+    background-color: rgb(68, 68, 68);
 }
 
 img {
@@ -53,5 +60,5 @@ nav {
 }
 
 #incrementText {
-    color: black;
+    color: #9297C4;
 }
