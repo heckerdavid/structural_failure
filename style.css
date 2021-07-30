@@ -43,11 +43,18 @@ nav {
 footer {
     align-items: center;
 }
+a { 
+    color: #222424e5;
+    border-radius: 35%;
+    padding: 9px;
+    background-color: #58a074e1;
+    margin: 10px;
+}
 
 .button {
     transition-duration: 0.4s;
     background-color: #9297C4;
-    color: #9368B7;
+    color: #17141a;
     border: 2px solid #84C7D0;
     padding: 16px 32px;
     display: inline-block;
