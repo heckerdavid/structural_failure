@@ -14,18 +14,18 @@ function annoyUser() {
     if (input.toLowerCase() == "yes" ) {
         alert('good, here\'s another')
     } else if (input.toLowerCase() == "no") {
-        alert("too bad, I need this for a grade =)")
+        alert("I am sorry but I need this for a grade =)")
     } else {
-        alert('invalid input but ok.')
+        alert('invalid input. Goodbye')
     }
 }
 
 function annoyUserwithNumbers() {
-    input = prompt("enter 'yes'")
+    input = prompt("please enter 'yes'")
     if (input === 'yes') {
-        alert('thank you for following directions! goodbye')
+        alert('You said the magic word! Welcome to the site')
     } else {
-        alert("INVALID INPUT. Your failure to follow instructions puts us right back where we started")
+        alert("INVALID INPUT. restarting")
         annoyUserwithNumbers()
     }
 }
