@@ -23,9 +23,9 @@ function annoyUser() {
 function annoyUserwithNumbers() {
     input = prompt("please enter 'yes'")
     if (input === 'yes') {
-        alert('You said the magic word! Welcome to the site')
+        alert('You said the magic word! Great work')
     } else {
-        alert("INVALID INPUT. restarting")
+        alert("INVALID INPUT. restarting. (sorry)")
         annoyUserwithNumbers()
     }
 }
@@ -46,5 +46,3 @@ function addRandLink() {
     document.write(choice);
     console.log(choice)
 }
-
-annoyUserwithNumbers();

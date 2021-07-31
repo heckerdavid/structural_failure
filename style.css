@@ -19,6 +19,8 @@ section {
     align-content: space-around;
     background-color: #9368b788;
     margin: 20px;
+    align-self: flex-start;
+    width: 70%;
     padding: 40px;
     
 }
