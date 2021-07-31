@@ -39,10 +39,19 @@ function addImage() {
 
 }
 
+let link_list = ['<a href="https://cardano.org/">Have you ever heard of Cardano?</a>', '<a href="https://bitcoin.org/bitcoin.pdf">Learn about Bitcoin</a>', '<a href="https://polkadot.network/">Learn about Polkadot here</a>', '<a href="https://ethereum.org/en/">Read about the Ethereum network</a>']
+let used_links = []
+
 function addRandLink() {
-    let link_list = ['<a href="https://cardano.org/">Have you ever heard of Cardano?</a>', '<a href="https://bitcoin.org/bitcoin.pdf">Learn about Bitcoin</a>', '<a href="https://polkadot.network/">Learn about Polkadot here</a>', '<a href="https://ethereum.org/en/">Read about the Ethereum network</a>']
     let position = Math.floor(Math.random() * (link_list.length));
     let choice = link_list[position];
-    document.write(choice);
-    console.log(choice)
+    if (used_links.includes(choice)) {
+        addRandLink();
+        console.log('continue');
+    } else {
+        document.write(choice);
+        console.log(choice);
+        used_links.push(choice);
+        console.log(used_links);
+    }
 }
