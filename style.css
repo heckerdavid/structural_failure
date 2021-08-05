@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     background-color: #9368b7c5;
     padding: 0%;
-    margin: 19%;
+    margin: 1%;
     border: 10px;
     border-radius: 25%;
     border-color: #84C7D0;
@@ -42,14 +42,15 @@ img {
 nav {
     text-align: center;
 }
+
 footer {
     align-items: center;
+    background-color: #9297c463;
 }
 a { 
-    color: #222424e5;
+    color: #84C7D0;
     border-radius: 35%;
     padding: 9px;
-    background-color: #58a074e1;
     margin: 10px;
 }
 
